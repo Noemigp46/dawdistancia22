@@ -18,8 +18,8 @@
  * @return int Nota media del alumno
  *
  */
-function media ($nota1, $nota2, $nota3){
-        $notaMedia = ($nota1+$nota3+$nota3)/3;
+function media ($nota1, $nota2, $nota3, $nota4){
+        $notaMedia = ($nota1+$nota3+$nota3+$nota4)/4;
         return $notaMedia;
 }
 
